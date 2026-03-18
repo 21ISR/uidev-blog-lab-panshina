@@ -14,15 +14,12 @@ body {
 
 /* Фиксированная шапка */
 header {
-    background: #3498db;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    font-family: 'Arial', serif;
-    font-size: 20px;
-    font-weight: 700;
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 5px;
 }
 
 /* Контент не уходит под шапку */
@@ -42,6 +39,5 @@ main {
 
 footer {
   padding: 24px;
-  background: #f5f5f5;
-  text-align: center;
+  text-align: left;
 }
