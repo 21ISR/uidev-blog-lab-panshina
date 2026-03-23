@@ -10,7 +10,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: gray;
+  background-color: rgb(245, 245, 245);
 }
 
 /* Фиксированная шапка */
@@ -54,5 +54,8 @@ footer {
 }
 
 .goods article img {
-  width: 100%;
+  width: 30%;
+}
+.go {
+  
 }
