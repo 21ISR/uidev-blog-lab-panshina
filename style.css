@@ -1,0 +1,97 @@
+/* Общий сброс */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(245, 245, 245);
+}
+
+/* Фиксированная шапка */
+header {
+  background-color: #3498db;
+  color: #fff;
+  padding: 20px;
+  text-align: center;   
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+/* Контент не уходит под шапку */
+main {
+  margin-top: 60px;
+  flex: 1;               /* растягивает main, прижимает footer вниз */
+  padding: 0 16px;
+}
+
+/* Контейнер по центру */
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #fff;
+}
+section {
+  line-height: 1.8;
+  border-bottom: 1px solid #cecece;
+  margin-bottom: 20px;
+}
+
+article{
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+}
+section:last-of-type {
+  background: #f7f6f6;
+  border-left: 5px solid #0077cc;
+  margin: 20px;
+  word-spacing: 10px;
+  border-top: 1px solid #eee;
+}
+p {
+  color: gray;
+  line-height: 1.6;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  line-height: 1.8;
+  color: #222;
+  margin-bottom: 5px;
+  font-size: 1.8rem;
+  font-size: 25px;
+}
+footer {
+  text-align: left;
+  border-top: 1px solid #dfdfdf;
+}
+.goods{
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.goods article {
+  background: #f7f6f6;
+  padding: 10px;
+  border-radius: 5px;
+  overflow: 50px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 1;
+  border-bottom: 1px solid #cecece;
+}
+.goods article img {
+  width: 90%;   
+}
